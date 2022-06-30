@@ -85,20 +85,6 @@ public class CommonMethods extends Properties {
 			System.err.println(value +" not entered in " + name );
 		}			
 	}
-	/*
-	public static void enterKeys(WebElement element, Object[][] value, String name) {
-		
-		try {
-			WebDriverWait wait= new WebDriverWait(driver, 30);
-			wait.until(ExpectedConditions.elementToBeClickable(element));
-			element.sendKeys(value);
-			System.out.println(value + " entered in " + name);
-			}
-			catch(Exception e){
-				System.err.println(value +" not entered in " + name );
-			}	
-	}
-*/
 	
 	public static void enterKeys(WebElement item, Keys key, String itemName) {
    	 try {
@@ -137,67 +123,5 @@ public class CommonMethods extends Properties {
 			e.printStackTrace();
 		}
 			}
-/*	
-public static ArrayList<String> getData(String testSheetName, String testCaseName, String testScenario ) throws IOException {
-		
-		ArrayList<String> a= new ArrayList<String>();
-		FileInputStream fis= new FileInputStream("C:\\Users\\nmadhanagopal\\eclipse-workspace\\Framework\\Resources\\traveller_details.xlsx");
-		XSSFWorkbook workbook=new XSSFWorkbook(fis);
-		int sheets=workbook.getNumberOfSheets();
-		for(int i=0;i<sheets;i++) {
-			
-			if(workbook.getSheetName(i).equalsIgnoreCase(testSheetName)) {
-				
-				XSSFSheet sheet= workbook.getSheetAt(i);
-				Iterator <Row> rows=sheet.iterator();
-				Row firstRow=rows.next();
-				Iterator<Cell> cel=firstRow.cellIterator();
-				int k=0;
-				int column =0;
-				while (cel.hasNext()) {
-					Cell value=cel.next();
-					if (value.getStringCellValue().equalsIgnoreCase(testCaseName)) {
-						column=k;
-					}
-					k++;
-				}
-				System.out.println(column+ "th Column");
-				
-				while(rows.hasNext())
-				{
-					Row r=rows.next();
-					if (r.getCell(column).getStringCellValue().equalsIgnoreCase(testScenario))
-					{
-						Iterator <Cell> ci=r.cellIterator();
-						while (ci.hasNext()){
-							Cell c=ci.next();
-							if(c.getCellType()==c.getCellType().STRING) {
-								a.add(c.getStringCellValue());
-							}
-							else {
-								a.add(NumberToTextConverter.toText(c.getNumericCellValue()));
-							}
-							
-							
-						}
-					}
-				}
-					
-			}
-			
-			
-		}
-		
-		return a;
-	
-		
-	}
-
-*/
-
-	
-
-	
-	
 
 }

@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-16T13:20:20 IST" name="Default suite" finished-at="2022-06-16T13:22:57 IST" duration-ms="156900">
+  <suite started-at="2022-06-20T10:50:39 IST" name="Default suite" finished-at="2022-06-20T10:53:17 IST" duration-ms="157566">
     <groups>
     </groups>
-    <test started-at="2022-06-16T13:20:20 IST" name="Default test" finished-at="2022-06-16T13:22:57 IST" duration-ms="156900">
+    <test started-at="2022-06-20T10:50:39 IST" name="Default test" finished-at="2022-06-20T10:53:17 IST" duration-ms="157566">
       <class name="allegiant_Runner.RunnerTest">
-        <test-method signature="run([Ljava.lang.String;)[pri:0, instance:allegiant_Runner.RunnerTest@611889f4]" started-at="2022-06-16T13:20:22 IST" name="run" data-provider="getLocationData" finished-at="2022-06-16T13:21:04 IST" duration-ms="42647" status="PASS">
+        <test-method signature="run([Ljava.lang.String;)[pri:0, instance:allegiant_Runner.RunnerTest@35aea049]" started-at="2022-06-20T10:50:41 IST" name="run" data-provider="getLocationData" finished-at="2022-06-20T10:51:38 IST" duration-ms="56422" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@65593327]]>
+                <![CDATA[[Ljava.lang.String;@150fc7a7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-        <test-method signature="run1([Ljava.lang.String;)[pri:0, instance:allegiant_Runner.RunnerTest@611889f4]" started-at="2022-06-16T13:21:05 IST" name="run1" data-provider="getTravelerData" finished-at="2022-06-16T13:22:16 IST" depends-on-methods="allegiant_Runner.RunnerTest.run" duration-ms="71747" status="PASS">
+        <test-method signature="run1([Ljava.lang.String;)[pri:0, instance:allegiant_Runner.RunnerTest@35aea049]" started-at="2022-06-20T10:51:38 IST" name="run1" data-provider="getTravelerData" finished-at="2022-06-20T10:52:49 IST" depends-on-methods="allegiant_Runner.RunnerTest.run" duration-ms="70474" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@68e5c7ae]]>
+                <![CDATA[[Ljava.lang.String;@55d8c2c4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run1 -->
-        <test-method signature="run2([Ljava.lang.String;)[pri:0, instance:allegiant_Runner.RunnerTest@611889f4]" started-at="2022-06-16T13:22:17 IST" name="run2" data-provider="getPaymentData" finished-at="2022-06-16T13:22:57 IST" depends-on-methods="allegiant_Runner.RunnerTest.run1" duration-ms="39493" status="PASS">
+        <test-method signature="run2([Ljava.lang.String;)[pri:0, instance:allegiant_Runner.RunnerTest@35aea049]" started-at="2022-06-20T10:52:49 IST" name="run2" data-provider="getPaymentData" finished-at="2022-06-20T10:53:17 IST" depends-on-methods="allegiant_Runner.RunnerTest.run1" duration-ms="27857" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@684ce74c]]>
+                <![CDATA[[Ljava.lang.String;@798cf6d2]]>
               </value>
             </param>
           </params>

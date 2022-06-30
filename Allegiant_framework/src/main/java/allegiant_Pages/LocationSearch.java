@@ -90,7 +90,7 @@ public class LocationSearch extends Properties {
 	
 	public void navigateDate() {
 		try {
-			CommonMethods.clickElement(navigateDate, "Departure Date ");
+			CommonMethods.clickElement(navigateDate, "Navigated to next month ");
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (InterruptedException e) {
