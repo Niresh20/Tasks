@@ -1,0 +1,50 @@
+Agile means a way of thinking that's guided by four values and twelve principles. We have to think about agile as a mindset over framework, 
+process or methodology. Looking at the history of agile, it was coined back in 2001. 17 highly opinionated expert software developers got
+ together in utah to discuss what are some of the things that they were doing in software develpment that was working. some folks there were from scrum and some from lean. 
+However they agreed on four values and 12 principles, and that is how the agile manifesto was originated.
+
+Lets assimilate we have X amount of dollars and want to build an app. Lets assume we are trying to build a game and we have a certain amount of money and 
+we are hiring good software engineers. How would our product want to get deliverd to us. Would we want value in weekly basis or want to give a lot of documents. obviously the working software
+would we them to collobarate with us on how should build this game or lock into a contract that delivering only such ideas we had initially.
+and lets say ther's a another competitor who has already developed realy good game with all this features when we want to tweak a few things that makes a game still viable in market.
+ would we want our software development team to respond to needs in changing requirements or stick with the roadmap we gave initially. Obviously we want them be flexible.
+so this is how an agile from manifesto persepective.
+
+
+Individual--- Its important that there are enough interaction between team members or multiple team that are building this software. Not that we dont value processes and tools but values interactions more.
+ This satement means we value more face to face communication or communication over a quick call vs email and creating a tickets.
+
+when we create small increments of software and put in the hands of customer without creating a huge piece of documntation.
+
+we want to collobarate and delight our customers. its actually not fair for development teams to ask for all the requirements from the customer or client in day one.They are coimng to us
+in the first place for help coz they want this piece of software to be built by us. Rather that puttimg them into a strong contract we want to collobarate with them and help them understand
+what they need in the software so they can really delight their customers.
+
+lets value being ready for changes and responding to change than stick with a plan we did initially.lets say ther's a another competitor who has already developed realy good game with all this features when we want to tweak a few things that makes a game still viable in market.
+ would we want our software development team to respond to needs in changing requirements or stick with the roadmap we gave initially
+
+Agile was created because of the downfall of traditional waterfall methodology. With waterfall there’s various phases and you can’t move to the next phase until the previous phase 
+is complete. And once you've moved past a phase, its very difficult to go back to a previous phase. So for waterfall we need to identify all the requirements upfront, then you need a 
+model and analyze all those requirements.Then we need to develop some type of solution that meets those requuirements. then testing and production phase. If we are already in development
+or testing and identify some changes to go back it takes a lot of work for that team to go back to requirements and push that as a seperate piece coz of this step by step by step by step
+the value isn't deliverd to the end users untill the end of the process and also gaining feeback from the customer takes longer period.
+
+Agile allows us to deliver that value in smaller increments to the end users  to start utilizing that solution and seeing that value also they get to give you feedback. wheather they like
+it or dont really like it. the project team can think what they can do differently and what needs to be adjusted.
+
+Agile is actually difficult to implement for existing companies and easier to the new companies 
+
+SCRUM--
+Framework that was designed by agilist to solve complex adaptive problems that require sprinting or iterating through a solution. Scrum values inspection,adaption and transparency.
+Inspect and adapt pretty much means that as a team picks up the work and they start working after some time they can learn more about the problem and solution and better way of delivering
+ softwares.Transperancy on the other hand make scrum framework very effective because all the roles and responsibities the meetings in scrum are designed so that team can be more 
+transparent about how they're working.
+get the work ready they develop and test and get it production ready 
+we do planning, developing, testing and reviewing of a working unit of software is completed with this time box lets say for example two weeks and also do retrospective on how the team is
+doing in terms of working with each other
+
+Servant Leader to remove the road blocks
+
+Lets saY they dont have some kind of data for testing, if they need some servers
+
+
